@@ -1,0 +1,342 @@
+/*
+Author: Lia Washington
+File Name: styles.css
+Date: September 11, 2024
+*/
+
+/*
+CSS Reset
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* 
+Styles for Images
+*/
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*
+Styles for Nav
+*/
+/*
+What I already had
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center
+}
+
+nav {
+    clear: both;
+    background-color: #fa5867;
+}
+
+nav li {
+    padding: 1.5em;
+}
+
+nav li a{
+    color: #ffff;
+}
+*/
+
+/*
+Beginning of October!!!!!
+nav { 
+    margin-bottom: 1%;
+    background-color: #fa5867;
+}
+
+nav ul {
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.5em;
+    border-top: 1px solid #fff;
+    margin: auto;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+*/
+
+/*
+For the contents of the page
+*/
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Quicksand", "Courier New", sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #faec99;
+    background-image: linear-gradient(to right,#faec99,#fa5867);
+}
+
+header img {
+    background-color: linear-gradient(to right,#faec99,#fa5867);
+    display: block;
+}
+
+#welcome {
+    clear: both;
+    text-align: center;
+    font-size: 1em;
+    margin: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: .3em;
+    padding-top: .3em;
+}
+
+#introduction {
+    font-size: 2em;
+    margin: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: .3em;
+    padding-top: .3em;
+}
+
+.bottomemail a {
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    background-color: #faec99;
+    padding-top: .4em;
+    padding-bottom: .4em;
+}
+
+/*
+For the Graphics Page
+*/
+
+.round {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.graphic_description {
+    margin: auto;
+    height: auto;
+    padding: 1em;
+} 
+
+.graphic_description li {
+    list-style-type: none;
+}
+
+.graphic_description button {
+    text-decoration: none;
+    background-color: #fa5867;
+    color: white;
+    border-color: white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: 20px;
+    font-family: "Quicksand", "Courier New", sans-serif;
+}
+
+#contact_info a {
+    text-decoration: none;
+    color: white;
+}
+
+/* 
+Mobile Optimization
+*/
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+header img {
+    margin: 0 auto;
+    height: 7em;
+}
+
+nav {
+    display: block;
+    text-align: center;
+    clear: both;
+}
+/*
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    border-top: 1px solid white
+}
+
+nav li a {
+    display: block;
+    width: auto;
+}
+*/
+/*
+li:first-child {
+    border-top: none;
+}
+*/
+.map {
+    display: block;
+    text-align: center;
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.modern_button {
+    display: block;
+    text-align: center;
+    background-color:#fa5867;
+    border: 5px solid white;
+}
+
+.small_font {
+    font-size: 75%;
+}
+
+footer {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+
+footer {
+    color: white;
+    background-color: #fa5867;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    height: 6em;
+} 
+
+footer nav img {
+    width: 3em;
+    height: 3em;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.rightspace {
+    margin-right: 1em;
+}
+
+.centerspace {
+    margin-right: .5em;
+    margin-left: .5em;
+}
+
+.leftspace {
+    margin-left: 1em;
+}
+
+footer nav {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: inline;
+}
+
+footer nav p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+#symbolnames p {
+    display: inline-block;
+    margin-top: 0;
+}
+
+#symbolnames {
+    text-align: center;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+
+}

@@ -1,0 +1,433 @@
+/*
+Author: Lia Washington
+File Name: styles.css
+Date: October 17th, 2024
+*/
+
+/*
+CSS Reset
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+/* 
+Styles for Images
+*/
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
+/*
+Styles for Nav
+*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center
+}
+
+nav {
+    clear: both;
+    background-color: #fa5867;
+}
+
+nav li {
+    display: inline-block;
+    padding: 1.5em;
+}
+
+nav li a{
+    color: #ffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/*
+Style Rules for Body
+*/
+
+body {
+    font-family: "Quicksand", "Courier New", sans-serif;
+}
+
+
+
+/*
+Style Rules for Header
+*/
+
+header {
+    width: 100%;
+    background-color: #faec99;
+    background-image: linear-gradient(to right,#faec99,#fa5867);
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+/*
+Style Rules for Main Content
+*/
+
+#welcome {
+    clear: both;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+main {
+    text-align: center;
+    width: 100%;
+    background-color: #faec99;
+    font-size: 2em;
+    padding-top: .4em;
+    padding-bottom: .4em;
+}
+
+
+
+/*
+Style Rules for Footer
+*/
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #fa5867;
+    padding-top: .5em;
+    padding-bottom: .5em;
+} 
+
+
+
+/*
+Style Rules for Graphic's Page
+*/
+
+.graphic_description {
+    margin: 2em;
+    text-align: center;
+}
+
+.graphic_description img {
+    margin: auto;
+}
+
+.graphic_description li {
+    list-style-type: none;
+}
+
+.graphic_description button {
+    text-decoration: none;
+    background-color: #fa5867;
+    color: white;
+    border-color: white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: 20px;
+    font-family: "Quicksand", "Courier New", sans-serif;
+}
+
+.round {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.adobeimage {
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+
+/*
+Style Rules for Projects Page
+*/
+
+.projecttypes button {
+    text-decoration: none;
+    background-color: #fa5867;
+    color: white;
+    border-color: white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-right: 1%;
+    padding-left: 1%;
+    font-size: 20px;
+    font-family: "Quicksand", "Courier New", sans-serif;
+}
+
+.projecttypes ul {
+    list-style-type: none;
+    padding-bottom: 1em;
+}
+
+.projecttypes ul li a {
+    color: white;
+}
+
+/*
+Contact Page Style Rules 
+*/
+
+.map {
+    display: block;
+    text-align: center;
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+#contact_info a {
+    text-decoration: none;
+    color: white;
+}
+
+/*
+Style Rules for Mobile App Page
+*/
+
+.Mobile_Projects video {
+    border: 5px solid white;
+}
+ 
+.Mobile_Page_Desc p {
+    color: white;
+    background-color: #fa5867;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.Mobile_Page_Desc p a {
+    text-decoration: none;
+    color: #fa5867;
+    background-color: #faec99;
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/*
+Query for Desktop Viewport
+*/
+
+@media screen and (min-width: 1020px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop button a {
+        color: white;
+    }
+
+    .desktop button {
+        margin: auto;
+    }
+
+}
+
+
+
+/*
+Query for Mobile Viewport
+*/
+
+@media screen and (max-width: 1019px) {
+    .desktop {
+        display: none;
+    }
+
+    header {
+        margin: auto;
+    }
+
+    #welcome {
+        font-size: 1em;
+        margin: auto;
+        padding-left: .5em;
+        padding-right: .5em;
+        padding-bottom: .3em;
+        padding-top: .3em;
+        width: auto;
+    }
+
+    #introduction {
+        font-size: 1em;
+        margin: auto;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-bottom: .3em;
+        padding-top: .3em;
+    }
+
+    .round {
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+
+    .modern_button {
+        display: block;
+        text-align: center;
+        background-color:#fa5867;
+        border: 5px solid white;
+        color: white;
+        margin: auto;
+    }
+
+    .modern_button a {
+        color: white;
+    }
+
+    .copyright {
+        font-size: .5em;
+    }
+
+    .small_font {
+        font-size: 75%;
+    }
+
+    .mobile {
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 0;
+    }
+    
+    footer {
+        color: white;
+        background-color: #fa5867;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        height: 6em;
+    } 
+    
+    footer nav img {
+        width: 3em;
+        height: 3em;
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        text-align: center;
+    }
+    
+    .rightspace {
+        margin-right: 1em;
+    }
+    
+    .centerspace {
+        margin-right: .5em;
+        margin-left: .5em;
+    }
+    
+    .leftspace {
+        margin-left: 1em;
+    }
+    
+    footer nav {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        display: inline;
+    }
+    
+    footer nav p {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    
+    #symbolnames p {
+        display: inline-block;
+        margin-top: 0;
+    }
+    
+    #symbolnames {
+        text-align: center;
+        margin-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    
+    }
+
+
+}
+/*
+Different Pages
+*/
+
